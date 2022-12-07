@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+
     <title> {{ title }} </title>
 </head>
 
@@ -13,7 +15,7 @@
         
         {% for order in orders %}
 
-        <li><p><a href=http://localhost:4999/orders/{{loop.index0}}>{{ order.customer_name }} {{order.order_date}} {{order.rock_name}} {{order.quantity}}</a></p></li>
+        <li><p><a href="orders/{{loop.index0}}">{{ order.customer_name }} {{order.order_date}} {{order.rock_name}} {{order.quantity}}</a></p></li>
         
         {% endfor %}
     </ul>

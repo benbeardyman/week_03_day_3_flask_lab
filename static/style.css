@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(218, 254, 245);
+}
+
+body > h1 {
+    background-color: rgb(85, 171, 225);
+    color: white;
+    margin: 0;
+    padding-left: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+body > ul > li {
+    font-size: 15px;
+    list-style: none;
+}
+
+body > ul > li > p > a {
+    text-decoration: none;
+}
+
+body > ul > li > p > a:visited {
+    color:black;
+}
